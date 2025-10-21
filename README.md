@@ -1,6 +1,6 @@
 # 🧪 Frontend Lab
 
-A collection of my **Frontend Mentor** solutions — where I turn beautiful designs into clean, responsive, and accessible web interfaces.  
+A collection of my **Frontend Mentor** solutions — turning designs into clean, responsive, and accessible web interfaces.  
 Each project lives in its own folder and includes the original challenge, my solution, and notes on what I learned.
 
 ---
@@ -14,21 +14,21 @@ Each project lives in its own folder and includes the original challenge, my sol
 - [Setup & Usage](#setup--usage)
 - [Learning Goals](#learning-goals)
 - [Contact](#contact)
-- [License](#license)
+- [License](https://github.com/Alireza-LA/frontend-lab/blob/main/LICENSE)
 
 ---
 
 ## 🧩 About This Repository
 
-This repo serves as my **frontend practice lab**, where I experiment with:
-- Real-world UI challenges from [Frontend Mentor](https://www.frontendmentor.io/).
-- Clean and semantic HTML5.
-- Modern CSS (Flexbox, Grid, and animations).
-- JavaScript for interactivity and logic.
+This repo is my **frontend practice lab**, where I experiment with:
+- UI challenges from [Frontend Mentor](https://www.frontendmentor.io/).
+- Semantic HTML5.
+- Modern CSS (Flexbox, Grid, animations).
+- JavaScript for interactivity.
 - Responsive design and accessibility best practices.
 
-Each subfolder represents a completed challenge.  
-I use this space to **track my progress**, **refine my code quality**, and **document what I learn**.
+Each folder represents a completed challenge.  
+This repo helps me **track progress**, **refine code quality**, and **document learning**.
 
 ---
 
