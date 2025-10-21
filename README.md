@@ -1,6 +1,6 @@
 # 🧪 Frontend Lab
 
-A collection of my **Frontend Mentor** solutions — turning designs into clean, responsive, and accessible web interfaces.  
+A collection of my **Frontend Mentor** solutions — where I turn beautiful designs into clean, responsive, and accessible web interfaces.  
 Each project lives in its own folder and includes the original challenge, my solution, and notes on what I learned.
 
 ---
@@ -10,25 +10,19 @@ Each project lives in its own folder and includes the original challenge, my sol
 - [About This Repository](#about-this-repository)
 - [Tech Stack](#tech-stack)
 - [Project List](#project-list)
-- [Folder Structure](#folder-structure)
-- [Setup & Usage](#setup--usage)
-- [Learning Goals](#learning-goals)
-- [Contact](#contact)
-- [License](https://github.com/Alireza-LA/frontend-lab/blob/main/LICENSE)
 
 ---
 
 ## 🧩 About This Repository
 
-This repo is my **frontend practice lab**, where I experiment with:
-- UI challenges from [Frontend Mentor](https://www.frontendmentor.io/).
-- Semantic HTML5.
-- Modern CSS (Flexbox, Grid, animations).
-- JavaScript for interactivity.
-- Responsive design and accessibility best practices.
+This repository is my **frontend practice lab**, where I work on:
+- Real-world UI challenges from [Frontend Mentor](https://www.frontendmentor.io/)
+- Clean and semantic HTML5
+- Modern CSS (Flexbox, Grid, animations)
+- JavaScript for interactivity
+- Responsive design and accessibility best practices
 
-Each folder represents a completed challenge.  
-This repo helps me **track progress**, **refine code quality**, and **document learning**.
+Each folder represents a completed challenge and shows my progress, code quality improvements, and learning notes.
 
 ---
 
@@ -37,23 +31,14 @@ This repo helps me **track progress**, **refine code quality**, and **document l
 | Category | Tools & Technologies |
 |-----------|---------------------|
 | Languages | HTML5, CSS3, JavaScript (ES6+) |
-| Styling   | Flexbox, Grid, CSS Variables, Responsive Units |
-| Tools     | VS Code, Git, Live Server |
-| Version Control | Git & GitHub |
-| Optional (future) | React, Sass, Tailwind CSS |
+| Styling   | Flexbox, Grid, CSS Variables |
+| Tools     | VS Code, Git, GitHub Pages |
+| Optional  | React, Sass, Tailwind CSS |
 
 ---
 
-## 🧱 Folder Structure
+## 🧱 Project List (Live Previews)
 
-```bash
-frontend-lab/
-│
-├── social-links-profile/
-│   ├── index.html
-│   ├── style.css
-│   ├── script.js
-│   ├── README.md
-│   └── preview.jpg
-│
-└── README.md  ← you are here
+| # | Project | Live Demo |
+|---|---------|-----------|
+| 1 | Social Links Profile | [View Live](https://alireza-la.github.io/frontend-lab/social-links-profile/) |
