@@ -1,0 +1,146 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --background-color: rgb(20, 20, 20);
+    --card-background-color: rgb(39, 39, 39);
+    --links-background-color: rgb(70, 70, 70);
+}
+
+body {
+    background-color: var(--background-color);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    align-self: center;
+    width: 90vw;
+    height: 85vh;
+    background-color: var(--card-background-color);
+    border-radius: 30px;
+    margin-top: auto;
+}
+
+#profile {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin-top: 5vh;
+    margin-bottom: 1vh;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid white;
+}
+
+#name {
+    font-size: 5vw;
+    color: white;
+    margin-top: 1vh;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+#place {
+    color: rgb(246, 255, 65);
+    font-size: 3vw;
+    margin-top: 5px;
+    font-weight: 800;
+    margin-top: -1vh;
+}
+
+#job {
+    color: white;
+    word-spacing: 3px;
+    font-size: 16px;
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+}
+
+#git,
+#src,
+#linkedin,
+#X,
+#insta {
+    text-decoration: none;
+    margin-bottom: 4vh;
+    background-color: gray;
+    color: white;
+    padding: 12px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 7px;
+    background-color: var(--links-background-color);
+}
+
+footer {
+    margin-top: auto;
+    margin-bottom: 0;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(135, 209, 255);
+}
+
+#git:hover,
+#src:hover,
+#linkedin:hover,
+#X:hover,
+#insta:hover {
+    background-color: rgb(254, 254, 0);
+    color: black;
+}
+
+footer a:hover {
+    color: rgba(255, 221, 0, 0.792);
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 25%;
+        height: 80%;
+    }
+
+    #name {
+        font-size: x-large;
+    }
+
+    #place {
+        font-size: large;
+        margin-top: 0.5%;
+    }
+
+    #job {
+        word-spacing: 4px;
+        font-size: 20px;
+    }
+
+    #git,
+    #src,
+    #linkedin,
+    #X,
+    #insta {
+        margin-bottom: 3%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    #insta {
+        margin-bottom: 7%;
+    }
+}
