@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'Figtree';
+    src: url('./assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Figtree';
+    src: url('./assets/fonts/Figtree-Italic-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(235, 235, 0);
+    font-family: 'Figtree';
+    margin: 0;
+    overflow: hidden;
+}
+
+.blog-card {
+    background-color: white;
+    margin: auto 5%;
+    padding: 4vw;
+    border-radius: 30px;
+    box-shadow: 10px 10px;
+}
+
+.attribution {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header img {
+    border-radius: 15px;
+    margin-bottom: 1vh;
+}
+
+.date {
+    font-weight: 700;
+    margin-top: 0.5vh;
+}
+
+header img+p {
+    background-color: rgb(230, 230, 0);
+    padding: 0.5vh 4vw;
+    width: fit-content;
+    border-radius: 7px;
+    font-weight: 800;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+article>p {
+    font-size: 19px;
+    color: gray;
+}
+
+article>h2 {
+    font-weight: 900;
+    margin-top: 0.5vh;
+}
+
+footer {
+    display: flex;
+    padding: 10px;
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 3vw;
+}
+
+footer p {
+    font-weight: 900;
+}
+
+article>h2:hover {
+    color: rgb(230, 230, 0);
+}
+
+.attribution a {
+    text-decoration: none;
+    margin-left: 2px;
+    color: rgb(255, 255, 255);
+}
+
+@media (min-width: 768px) {
+    body {
+        align-items: center;
+        font-size: 42px;
+    }
+
+    .blog-card {
+        width: 25%;
+        height: 67%;
+        padding: 1%;
+        border-radius: 3%;
+        box-shadow: 25px 25px;
+        padding-bottom: 0;
+    }
+
+    header img {
+        border-radius: 2%;
+    }
+
+    .tag {
+        padding: 0.5vh 0.7vw;
+        border-radius: 15px;
+        font-size: 64px;
+    }
+
+    .date {
+        font-size: 68px;
+    }
+
+    header+h2 {
+        font-size: 115px;
+        font-weight: 800;
+    }
+
+    .summary {
+        font-size: 78px;
+    }
+
+    footer img {
+        width: 11%;
+        height: 11%;
+        margin-right: 0.7vw;
+    }
+
+    footer p {
+        font-size: 68px;
+    }
+
+    .attribution {
+        font-size: 50px;
+    }
+}

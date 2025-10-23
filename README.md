@@ -40,5 +40,6 @@ Each folder represents a completed challenge and shows my progress, code quality
 ## 🧱 Project List (Live Previews)
 
 | # | Project | Live Demo |
-|---|---------|-----------|
+|---|----------|-----------|
 | 1 | Social Links Profile | [View Live](https://alireza-la.github.io/frontend-lab/social-links-profile/) |
+| 2 | Blog Preview Card | [View Live](https://alireza-la.github.io/frontend-lab/blog-preview-card/) |
