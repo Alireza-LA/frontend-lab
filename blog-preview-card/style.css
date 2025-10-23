@@ -91,7 +91,11 @@ article>h2 {
 
 footer {
     display: flex;
-    padding: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    width: fit-content;
+    margin-top: 1rem;
 }
 
 footer img {
@@ -99,7 +103,6 @@ footer img {
     height: 50px;
     border-radius: 50%;
     object-fit: cover;
-    margin-right: 3vw;
 }
 
 footer p {
