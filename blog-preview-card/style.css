@@ -21,13 +21,22 @@
 
 body {
     height: 100dvh;
+    margin: 0;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
     background-color: rgb(235, 235, 0);
     font-family: 'Figtree';
-    margin: 0;
     overflow: hidden;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    width: 100%;
 }
 
 .blog-card {
@@ -110,15 +119,14 @@ article>h2:hover {
 @media (min-width: 768px) {
     body {
         align-items: center;
-        font-size: 42px;
     }
 
     .blog-card {
         width: 25%;
-        height: 67%;
+        height: 73%;
         padding: 1%;
         border-radius: 3%;
-        box-shadow: 25px 25px;
+        box-shadow: 15px 15px;
         padding-bottom: 0;
     }
 
@@ -129,20 +137,23 @@ article>h2:hover {
     .tag {
         padding: 0.5vh 0.7vw;
         border-radius: 15px;
-        font-size: 64px;
+        font-size: 18px;
     }
 
     .date {
-        font-size: 68px;
+        font-size: 21px;
+        padding-left: 12px;
     }
 
     header+h2 {
-        font-size: 115px;
+        font-size: 26px;
         font-weight: 800;
+        padding-left: 12px;
     }
 
     .summary {
-        font-size: 78px;
+        font-size: 22px;
+        padding-left: 12px;
     }
 
     footer img {
@@ -152,10 +163,11 @@ article>h2:hover {
     }
 
     footer p {
-        font-size: 68px;
+        font-size: 17px;
+        font-weight: 700;
     }
 
     .attribution {
-        font-size: 50px;
+        font-size: 16px;
     }
 }
