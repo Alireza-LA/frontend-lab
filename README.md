@@ -43,3 +43,18 @@ Each folder represents a completed challenge and shows my progress, code quality
 |---|----------|-----------|
 | 1 | Social Links Profile | [View Live](https://alireza-la.github.io/frontend-lab/social-links-profile/) |
 | 2 | Blog Preview Card | [View Live](https://alireza-la.github.io/frontend-lab/blog-preview-card/) |
+| 3 | Recipe Page | [View Live](https://alireza-la.github.io/frontend-lab/recipe-page/) |
+
+---
+
+## 📬 Contact
+
+👤 **Alireza Alenabi**  
+- GitHub: [Alireza-LA](https://github.com/Alireza-LA)  
+- Frontend Mentor: [Alireza-LA](https://www.frontendmentor.io/profile/Alireza-LA)
+
+---
+
+## 📄 License
+
+MIT License — see [LICENSE](https://github.com/Alireza-LA/frontend-lab/blob/main/LICENSE) for details.

@@ -1,0 +1,177 @@
+/* Base layout */
+body {
+    margin: 0;
+    background-color: rgb(238, 227, 199);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Card container */
+.card {
+    background-color: white;
+    border-radius: 20px;
+    max-width: 90vw;
+    margin: 2rem auto;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Image section */
+.image img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+/* Content section */
+.instructure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.recipe-description {
+    color: rgb(95, 90, 83);
+}
+
+/* Shared heading style */
+.section-heading {
+    padding-left: 1em;
+    color: brown;
+}
+
+/* Preparation List */
+ul.prep-list {
+    list-style: none;
+    padding-left: 2em;
+}
+
+ul.prep-list li::before {
+    content: "•";
+    color: rgb(161, 75, 125);
+    font-size: 1.3rem;
+    display: inline-block;
+    width: 1rem;
+    margin-right: 0.5em;
+}
+
+.prep-list li strong {
+    color: rgba(113, 94, 59, 0.833);
+}
+
+.prep-list>li {
+    padding: 10px;
+    color: rgb(95, 90, 83);
+}
+
+/* Ingredients List */
+ul.ingredients-list {
+    list-style: none;
+    padding-left: 2em;
+}
+
+ul.ingredients-list li::before {
+    content: "•";
+    color: brown;
+    font-size: 1.3rem;
+    display: inline-block;
+    width: 1rem;
+    margin-right: 0.5em;
+}
+
+.ingredients-list>li {
+    padding: 7.5px;
+    color: rgb(95, 90, 83);
+}
+
+/* Instructions List */
+ol.instructions-list {
+    list-style: none;
+    counter-reset: item;
+    padding-left: 2em;
+}
+
+ol.instructions-list li {
+    counter-increment: item;
+    position: relative;
+    padding-left: 2em;
+    margin-bottom: 0.5em;
+}
+
+ol.instructions-list li::before {
+    content: counter(item) ".";
+    position: absolute;
+    left: 0;
+    width: 1rem;
+    margin-right: 0.5em;
+    color: brown;
+    font-weight: bold;
+    text-align: right;
+}
+
+.instructions-list li strong {
+    color: rgba(113, 94, 59, 0.833);
+}
+
+/* Nutrition */
+.nutrition-note {
+    padding-left: 2em;
+    color: rgb(95, 90, 83);
+}
+
+.nutrition-table {
+    margin-left: 2em;
+    border-collapse: collapse;
+}
+
+.nutrition-table th,
+.nutrition-table td {
+    padding: 0.5em 1em;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #aaa;
+    color: rgb(95, 90, 83);
+}
+
+.nutrition-table tr:last-child td,
+.nutrition-table tr:last-child th {
+    border-bottom: none;
+}
+
+/* Attribution */
+.attribution {
+    text-align: center;
+    margin-top: auto;
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: rgb(95, 90, 83);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 120, 120);
+}
+
+/* Desktop enhancements */
+@media (min-width: 768px) {
+    .card {
+        max-width: 600px;
+        margin: 10vh auto;
+    }
+
+    .instructure {
+        padding: 2.5rem;
+    }
+
+    .image img {
+        border-radius: 0;
+    }
+
+    .attribution {
+        padding-bottom: 2rem;
+        font-size: 16px;
+    }
+}
